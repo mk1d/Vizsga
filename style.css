@@ -1,0 +1,34 @@
+.episodes {
+    display: flex;
+    flex-direction: column;
+    margin-top: .8rem;
+}
+
+.episode, input {
+    margin-bottom: .8rem;
+    padding: .8rem 1rem;
+    border-radius: 10px;
+    border: 0;
+    width: 100%;
+    background: #191414;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: white;
+}
+
+body {
+    background-image: url(images/pexels-ruslan-alekso-2000885.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.episode:hover {
+    background: #1Db954;
+}
+
+.nav-link:hover {
+    color: white;
+}
